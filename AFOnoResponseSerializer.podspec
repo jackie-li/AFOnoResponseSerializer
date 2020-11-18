@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.source_files = 'AFOnoResponseSerializer'
   s.requires_arc = true
 
-  s.ios.deployment_target = '6.0'
-  s.osx.deployment_target = '10.8'
+  s.ios.deployment_target = '11.0'
+  s.osx.deployment_target = '10.10'
 
-  s.dependency 'AFNetworking', '~> 2.2'
-  s.dependency 'Ono', '~> 1.0'
+  s.dependency 'AFNetworking', '~> 4.0'
+  s.dependency 'Ono', '~> 2.1'
 end
